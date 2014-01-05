@@ -72,6 +72,10 @@ GEM
     multi_json (1.8.2)
     pg (0.17.1)
     polyglot (0.3.3)
+    posix-spawn (0.3.8)
+    pygments.rb (0.5.4)
+      posix-spawn (~> 0.3.6)
+      yajl-ruby (~> 1.1.0)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rack (1.5.2)
@@ -139,6 +143,7 @@ GEM
     uglifier (2.4.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
@@ -152,6 +157,7 @@ DEPENDENCIES
   jquery-rails
   less-rails
   pg
+  pygments.rb
   quiet_assets
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)

@@ -46,6 +46,29 @@ also add coderay into header of application.html.erb
 ```
 #todo
 ```
+Railscast sm-rc207(revised)
+====================
+use pygments
+```
+gem file
+gem 'pygments.rb'
+```
+see show.html.erb
+```
+only use small leters for languages
+```
+now create pyments.css.erb under assets
+```
+see file - it will colr your code
+```
+check availble styles on console
+```
+Pygments.styles
+```
+Redcarpet
+```
+Pending
+```
 Rails server
 ```
 rails s

@@ -7,7 +7,7 @@
   <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
   <dd><%= @article.name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:content) %>:</strong></dt>
-  <dd><%=raw @article.content %></dd>
+  <dd><%=raw Pygments.highlight(@article.content, lexer: @article.language) %></dd>
   <dt><strong><%= model_class.human_attribute_name(:author) %>:</strong></dt>
   <dd><%= @article.author %></dd>
 </dl>
